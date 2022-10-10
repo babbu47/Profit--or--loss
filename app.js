@@ -10,13 +10,13 @@ function calculateProfitloss(initial,snumber,current)
         writetext.style.display="block"
         var loss=Number(initial)-Number(current)
         var losspercentage=(loss*100)/initial
-        writetext.innerText= "Loss is"+" "+loss+"& loss percentage is"+losspercentage;
+        writetext.innerText= "Loss is"+" "+loss+"& loss percentage is"+" "+losspercentage;
     } 
     else if (Number(initial)<Number(current))
     { writetext.style.display="block"
         var profit=(Number(current)-Number(initial))*snumber
         var profitpercentage=(profit*100)/initial
-        writetext.innerText= "profit is"+" "+profit+"& profit percentage is"+profitpercentage
+        writetext.innerText= "profit is"+" "+profit+"& profit percentage is"+" "+profitpercentage
 
     }
     else
