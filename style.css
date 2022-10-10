@@ -1,0 +1,44 @@
+body{
+    margin-top: 3rem;
+    text-align: center;
+    background-color: #F96167;
+}
+#todayprice{
+    background-color: #FCE77D;
+    margin-bottom: 1rem;
+    width:25%;
+    border-color:#FCE77D;
+    height:2rem;
+    border:1px  solid black;
+    border-radius: 0.7rem;
+}
+#totalstocks
+{
+    background-color: #FCE77D;
+    margin-bottom: 1rem;
+    width:25%;
+    border:1px  solid black;
+    height:2rem;
+    border-radius: 0.7rem;
+}
+#currentprice
+{ background-color: #FCE77D;
+    margin-bottom: 1rem;
+    border-radius: 0.7rem;
+    width:25%;
+    height:2rem;
+    border:1px  solid black;
+    border-color:#FCE77D;
+}
+#buto{
+border:1px solid black;
+border-radius: 0.5rem;
+width:10%;
+height:2.5rem;
+font-size:1rem;
+background-color:white;
+}
+.textmessage{
+    color:white;
+    font-size:larger;
+}
