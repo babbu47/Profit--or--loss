@@ -20,9 +20,17 @@ function calculateProfitloss(initial,snumber,current)
 
     }
     else
-    {  writetext.style.display="block"
-        writetext.innerText="NO pain No gain.Value not Entered";
-    }
+{
+    if(initial==""||snumber==""||current=="")
+{
+    writetext.style.display="block"
+    writetext.innerText="Enter the values";
+}
+else{
+  writetext.style.display="block"
+        writetext.innerText="NO pain No gain.";
+ }
+ }
 
 }
 
