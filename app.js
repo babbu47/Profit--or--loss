@@ -5,14 +5,14 @@ var check=document.querySelector("#buto");
 var writetext=document.querySelector(".textmessage")
 function calculateProfitloss(initial,snumber,current)
 { writetext.style.display="none"
-    if(initial>current)
+    if(Number(initial)>Number(current))
     {
         writetext.style.display="block"
         var loss=Number(initial)-Number(current)
         var losspercentage=(loss*100)/initial
         writetext.innerText= "Loss is"+" "+loss+"& loss percentage is"+losspercentage;
     } 
-    else if (initial<current)
+    else if (Number(initial)<Number(current))
     { writetext.style.display="block"
         var profit=(Number(current)-Number(initial))*snumber
         var profitpercentage=(profit*100)/initial
