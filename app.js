@@ -33,10 +33,8 @@ else
     writetext.innerText="Enter the values";
 
 }
-    
-
 }
-writetext.innerText="Enter the values";
+
 check.addEventListener("click", function mp()
 {
     calculateProfitloss(tprice.value,ns.value,cprice.value)
