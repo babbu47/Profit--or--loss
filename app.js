@@ -6,7 +6,7 @@ var writetext=document.querySelector(".textmessage")
 function calculateProfitloss(initial,snumber,current)
 { 
     
-if((initial!=="")&&(snumber!=="")&&(current!==""))
+if((initial!=="")||(snumber!=="")||(current!==""))
 {    writetext.style.display="none"
     if(Number(initial)>Number(current))
     { writetext.style.display="block"
